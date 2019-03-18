@@ -1,0 +1,9 @@
+# roles/tomcat-app/tasks/main.yml
+---
+
+ - include_tasks: deploy.yml
+ - name: Make sure tomcat is started
+   meta: flush_handlers
+
+   
+ - include_tasks: tests.yml
