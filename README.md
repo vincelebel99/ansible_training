@@ -1,1 +1,1 @@
-Basic Ansible roles and Playbook for Blue gree deployment
+Basic Ansible roles and Playbook for Blue green deployment
